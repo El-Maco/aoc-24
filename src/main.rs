@@ -13,6 +13,7 @@ fn main() {
     let day = &args[1];
     match day.as_str() {
         "1" => challenges::day01::run(),
+        "2" => challenges::day02::run(),
         _ => eprintln!("Day {} not implemented", day),
     }
 }

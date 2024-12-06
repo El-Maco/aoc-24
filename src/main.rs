@@ -14,6 +14,7 @@ fn main() {
     match day.as_str() {
         "1" => challenges::day01::run(),
         "2" => challenges::day02::run(),
+        "3" => challenges::day03::run(),
         _ => eprintln!("Day {} not implemented", day),
     }
 }

@@ -15,3 +15,15 @@ fn solve_part1(input: &str) -> u32 {
 fn solve_part2(input: &str) -> u32 {
     todo![]
 }
+
+#[cfg(test)]
+mod tests {
+
+    static TEST_INPUT: &str = "";
+    use super::*;
+
+    #[test]
+    fn test_solve_part1() {
+        todo![];
+    }
+}

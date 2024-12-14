@@ -16,6 +16,7 @@ fn main() {
         "2" => challenges::day02::run(),
         "3" => challenges::day03::run(),
         "4" => challenges::day04::run(),
+        "5" => challenges::day05::run(),
         _ => eprintln!("Day {} not implemented", day),
     }
 }

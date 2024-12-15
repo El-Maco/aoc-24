@@ -24,6 +24,12 @@ mod tests {
 
     #[test]
     fn test_solve_part1() {
-        todo![];
+        assert_eq!(solve_part1(TEST_INPUT), todo!());
     }
+
+    #[test]
+    fn test_solve_part2() {
+        assert_eq!(solve_part2(TEST_INPUT), todo!());
+    }
+
 }
